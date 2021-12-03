@@ -64,70 +64,70 @@ nav li a:hover {
     color: #55d6ff;
     box-shadow: 0px 2px 0px #55d6ff;
 }
-.pag-home{
-    margin-top: 20px;
-}
-main{
-    background-color: #1545B3;
-}
 section {
     min-height: 90vh;
     padding-top: 3rem;
 }
-button{
-    width: 266px;
-    height: 76px;
-    border-radius: 38px;
-    border: solid 2px;
-    margin-right: 90px;
-    margin-top: 80px;
+main{
+    background-color: #3e76ca;
+}
+.pag-novaSenha{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #00C1EC;
+    margin-bottom: 45px;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+}
+button {
+    width: 260px;
+    height: 64px;
+    border-radius: 32px;
+    border: solid transparent;
+    background-color: #00C1EC;;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 25px;
     cursor: pointer;
 }
-.vacinas{
-    background-color: #00A5EB;
-    color: white;
-    border: solid 2px #00A5EB;
-    font-size: 36px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-}
-.formulario{
+input {
+    padding-left: 15px;
     background-color: transparent;
-    color: white;
-    border: solid 3px white;
-    font-size: 36px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    color: #525252;
+    border: 3px solid #1545B3;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    border-radius: 32px;
+    width: 456px;
+    height: 59px;
+    margin-bottom: 20px;
 }
-h1{
-    color: white;
-    font-size: 95px;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 117px;
-    width: 864px;
-}
-.container-text-img{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    z-index: 2;
-}
-.container-text{
+.conteiner-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 140px;
-    z-index: 2;
+    align-items: center;
+    width: 727px;
+    height: 601px;
+    background-color: white;
+    border-radius: 20px;
 }
-.container-button{
-    display: flex;
-    flex-direction: row;
-}
-.img-onda{
-    position: fixed;
-    top: 29.5%;
-    width: 100%;
-}
-.img-mao{
-    z-index: 1;
+img{
+    width: 43.8%;
+    height: 99%;
 }

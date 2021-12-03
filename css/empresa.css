@@ -64,70 +64,40 @@ nav li a:hover {
     color: #55d6ff;
     box-shadow: 0px 2px 0px #55d6ff;
 }
-.pag-home{
-    margin-top: 20px;
-}
-main{
-    background-color: #1545B3;
-}
 section {
     min-height: 90vh;
     padding-top: 3rem;
 }
-button{
-    width: 266px;
-    height: 76px;
-    border-radius: 38px;
-    border: solid 2px;
-    margin-right: 90px;
-    margin-top: 80px;
-    cursor: pointer;
-}
-.vacinas{
-    background-color: #00A5EB;
-    color: white;
-    border: solid 2px #00A5EB;
-    font-size: 36px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-}
-.formulario{
-    background-color: transparent;
-    color: white;
-    border: solid 3px white;
-    font-size: 36px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-}
-h1{
-    color: white;
-    font-size: 95px;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 117px;
-    width: 864px;
-}
-.container-text-img{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    z-index: 2;
-}
-.container-text{
+.pag-empresa{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 140px;
-    z-index: 2;
+    align-items: center;
+    margin-top: 20px;
 }
-.container-button{
+.container-1{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    width: 1500px;
+    height: 281px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
-.img-onda{
-    position: fixed;
-    top: 29.5%;
-    width: 100%;
+h1{
+    text-align: center;
+    color: #00C1EC;
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 117px;
+    width: 864px;
+    margin-bottom: 10px;
 }
-.img-mao{
-    z-index: 1;
+p{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    line-height: 42px;
+    color: #858585;
+    font-weight: 600;
 }
