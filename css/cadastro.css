@@ -97,7 +97,7 @@ button {
     border: solid transparent;
     background-color: #3e76ca;
     color: white;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 25px;
@@ -108,7 +108,7 @@ input {
     background-color: transparent;
     color: #525252;
     border: 3px solid #dcdcdc;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     border-radius: 32px;
     width: 456px;
