@@ -67,45 +67,48 @@ section {
     min-height: 90vh;
     padding-top: 3rem;
 }
-.pag-comentario{
+.pag-comentario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
 }
-h1{
-    margin-left: 525px;
+h1 {
     width: 972px;
     font-size: 64px;
     text-align: center;
     line-height: 78px;
-    color: #00C1EC;
+    color: #00c1ec;
     margin-top: 1%;
     font-family: 'Montserrat', sans-serif;
 }
-h2{
+h2 {
     font-size: 27px;
     margin-top: 15px;
     font-family: 'Montserrat', sans-serif;
 }
-.container-comentarios{
+.container-comentarios {
     margin-top: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
 }
-.text-comentarios{
-    width: 1919px;
+.text-comentarios {
+    width: 110em;
     height: 457px;
     display: flex;
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
 }
-.container-usuario{
+.container-usuario {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 451px;
+    width: 100em;
     height: 510px;
-    background: #FBFBFB;
+    background: #fbfbfb;
     box-shadow: 1px 2px 17px rgba(0, 0, 0, 0.25);
     margin-right: 100px;
     margin-left: 100px;
@@ -113,26 +116,26 @@ h2{
     border-radius: 59px;
     font-family: 'Montserrat', sans-serif;
 }
-.imagem1{
+.imagem1 {
     margin-top: 20px;
     width: 130px;
     height: 132px;
     border-radius: 65px;
 }
-.imagem2{
+.imagem2 {
     margin-top: 20px;
     width: 130px;
     height: 132px;
     border-radius: 65px;
 }
-.imagem3{
+.imagem3 {
     margin-top: 20px;
     width: 130px;
     height: 132px;
     border-radius: 65px;
 }
 .star-icon {
-    color: #B5B5B5;
+    color: #b5b5b5;
     font-size: 2.3em;
     position: relative;
 }
@@ -143,7 +146,7 @@ h2{
     position: absolute;
     left: 0;
 }
-p{
+p {
     margin-top: 15px;
     text-align: start;
     font-weight: 600;
@@ -153,20 +156,20 @@ p{
     height: 134px;
     font-family: 'Montserrat', sans-serif;
 }
-.position{
+.position {
     display: flex;
     flex-direction: row;
 }
-h3{
+h3 {
     font-size: 48px;
-    color: #3E76CA;
+    color: #3e76ca;
     font-family: 'Montserrat', sans-serif;
 }
-button{
+button {
     font-family: 'Montserrat', sans-serif;
     width: 305px;
     height: 76px;
-    background: #3E76CA;
+    background: #3e76ca;
     border-radius: 38px;
     color: white;
     font-size: 38px;
@@ -175,7 +178,7 @@ button{
     margin-top: 20px;
     cursor: pointer;
 }
-.comentar{
+.comentar {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

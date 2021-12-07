@@ -7,7 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     height: 90%;
-    overflow-y:hidden;
+    overflow-y: hidden;
 }
 nav {
     display: flex;
@@ -68,14 +68,14 @@ section {
     min-height: 90vh;
     padding-top: 3rem;
 }
-.pag-empresa{
+.pag-empresa {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
-.container-1{
+.container-1 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -84,20 +84,23 @@ section {
     margin-bottom: 25px;
     margin-top: 25px;
 }
-h1{
+h1 {
     text-align: center;
-    color: #00C1EC;
+    color: #00c1ec;
     font-size: 75px;
     font-family: 'Montserrat', sans-serif;
     line-height: 117px;
     width: 864px;
     margin-bottom: 10px;
 }
-p{
+p {
     text-align: left;
     font-family: 'Montserrat', sans-serif;
-    font-size: 35px;
+    font-size: 28px;
     line-height: 42px;
     color: #858585;
     font-weight: 600;
+}
+.p-2 {
+    margin-top: 5rem;
 }

@@ -7,7 +7,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     height: 90%;
-    overflow-y:hidden;
+    overflow-y: hidden;
+    background: #1545b3;
 }
 nav {
     display: flex;
@@ -66,12 +67,12 @@ nav li a:hover {
 }
 section {
     min-height: 90vh;
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
-main{
-    background: #1545B3;
+main {
+    background: #1545b3;
 }
-.pag-novaSenha{
+.pag-novaSenha {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -82,7 +83,7 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     text-align: center;
-    color: #00C1EC;
+    color: #00c1ec;
     margin-bottom: 45px;
 }
 p {
@@ -97,7 +98,7 @@ button {
     height: 64px;
     border-radius: 32px;
     border: solid transparent;
-    background-color: #00C1EC;;
+    background-color: #00c1ec;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
@@ -109,7 +110,7 @@ input {
     padding-left: 15px;
     background-color: transparent;
     color: #525252;
-    border: 3px solid #1545B3;
+    border: 3px solid #1545b3;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     border-radius: 32px;
@@ -127,7 +128,7 @@ input {
     background-color: white;
     border-radius: 20px;
 }
-img{
+img {
     width: 43.8%;
     height: 99%;
 }

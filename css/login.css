@@ -7,7 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     height: 90%;
-    overflow-y:hidden;
+    overflow-y: hidden;
 }
 nav {
     display: flex;
@@ -68,7 +68,7 @@ section {
     min-height: 90vh;
     padding-top: 3rem;
 }
-.pag-login{
+.pag-login {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -88,7 +88,7 @@ p {
     text-align: left;
     padding-left: 10px;
     font-weight: bold;
-    color:#525252;
+    color: #525252;
 }
 button {
     height: 50px;
@@ -137,9 +137,9 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 150px;
+    margin-right: 160px;
 }
-img{
-    width: 59%;
-    height: 99%;
+img {
+    width: 57%;
+    height: 80%;
 }

@@ -7,7 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     height: 90%;
-    overflow-y:hidden;
+    overflow-y: hidden;
 }
 nav {
     display: flex;
@@ -67,14 +67,14 @@ nav li a:hover {
 section {
     min-height: 99vh;
     padding-top: 3rem;
-    background: #1545B3;
+    background: #1545b3;
 }
-.pag-comentar{
+.pag-comentar {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    margin-top: 120px;
+    margin-top: 6%;
 }
 h1 {
     width: 567px;
@@ -89,7 +89,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     text-align: center;
-    color: #1545B3;
+    color: #1545b3;
     margin-bottom: 45px;
 }
 p {
@@ -102,7 +102,7 @@ p {
 button {
     width: 260px;
     height: 64px;
-    background: #1545B3;
+    background: #1545b3;
     border-radius: 31px;
     border: solid transparent;
     color: white;
@@ -119,7 +119,7 @@ input {
     color: #525252;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    border: 3px solid #1545B3;
+    border: 3px solid #1545b3;
     box-sizing: border-box;
     border-radius: 17px;
     width: 623px;
@@ -139,7 +139,7 @@ input {
     border-radius: 20px;
 }
 .star-icon {
-    color: #B5B5B5;
+    color: #b5b5b5;
     font-size: 3.5em;
     position: relative;
 }
