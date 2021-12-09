@@ -144,23 +144,14 @@ textarea {
     background-color: white;
     border-radius: 20px;
 }
-.star-icon {
-    color: #b5b5b5;
-    font-size: 2em;
-    position: relative;
-}
-
-.star-icon.full:before {
-    color: yellow;
-    content: '\2605';
-    position: absolute;
-    left: 0;
+.estrelas{
+    width: 300px;
 }
 .estrelas input[type=radio] {
     display: none;
   }
   .estrelas label i.fa{
-    font-size: 2em
+    font-size: 1.5em
   }
   .estrelas label i.fa:before {
     content:'\f005';
