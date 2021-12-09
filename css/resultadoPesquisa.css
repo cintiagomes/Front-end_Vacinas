@@ -72,6 +72,7 @@ h3 {
     font-size: 80px;
     text-align: center;
     color: #1545b3;
+    padding-right: 200px;
 }
 .container-form {
     display: flex;
@@ -82,10 +83,11 @@ h3 {
 }
 .container-pesquisa{
     width: 1167px;
-    height: 1033px;
+    height: 873px;
     background: #FFFFFF;
     border-radius: 30px;
     margin-top: 2%;
+    margin-bottom: 5%;
     padding: 50px;
 }
 button {
@@ -141,7 +143,7 @@ span {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 249px;
+    width: 309px;
     height: 51px;
     border: 1px solid #8e8e8e;
     box-sizing: border-box;
@@ -159,6 +161,13 @@ label {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     padding-left: 3%;
+    font-weight: 600;
+    color: #858585;
+}
+p{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 5%;
     font-weight: 600;
     color: #858585;
 }

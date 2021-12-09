@@ -7,7 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     height: 90%;
-    overflow-y: hidden;
+    overflow-y:hidden;
 }
 nav {
     display: flex;
@@ -64,76 +64,59 @@ nav li a:hover {
     color: #55d6ff;
     box-shadow: 0px 2px 0px #55d6ff;
 }
-section {
-    min-height: 90vh;
-    padding-top: 3rem;
+
+.img-science {
+    position: fixed;
+    margin-top: 120px;
+    margin-left: 110px;
 }
-.pag-cadastro {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-top: 10px;
-}
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 64px;
-    text-align: center;
-    color: #525252;
-    margin-bottom: 40px;
-    margin-top: 100px;
-}
-p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    text-align: left;
-    padding-left: 10px;
+p{
+    color: #858585;
     font-weight: bold;
-    color: #525252;
-}
-button {
-    height: 50px;
-    width: 230px;
-    border-radius: 32px;
-    border: solid transparent;
-    background-color: #3e76ca;
-    color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    cursor: pointer;
+    font-size: 25px;
 }
-input {
-    padding-left: 15px;
-    background-color: transparent;
-    color: #525252;
-    border: 3px solid #dcdcdc;
+.container-text {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    border-radius: 32px;
-    width: 456px;
-    height: 59px;
-    margin-bottom: 20px;
-}
-a {
-    align-items: center;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-}
-.usuario {
-    color: #525252;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-}
-.conteiner-form {
+    color: #858585;
     display: flex;
+    position: absolute;
     flex-direction: column;
     justify-content: center;
-    margin-right: 160px;
+    margin-right: 140px;
+    left: 700px;
+    margin-top: 170px;
+    font-weight: bold;
+    line-height: 33px;
+    font-size: 25px;
 }
-img {
-    width: 56%;
-    height: 99%;
+
+.paginaSOP {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-top: 460px;
+}
+
+.divTextosSOP {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    font-size: 22px;
+    justify-content: space-around;
+    margin-left: 10px;
+    text-align: center;
+}
+.texto1SOP {
+    max-width: 26vw;
+}
+.texto2SOP {
+    max-width: 26vw;
+}
+.texto3SOP {
+    margin-top: 19px;
+    max-width: 26vw;
 }

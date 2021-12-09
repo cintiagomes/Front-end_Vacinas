@@ -7,7 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     height: 90%;
-    overflow-y: hidden;
+    overflow-y:hidden;
 }
 nav {
     display: flex;
@@ -64,6 +64,32 @@ nav li a:hover {
     color: #55d6ff;
     box-shadow: 0px 2px 0px #55d6ff;
 }
-.pag-home {
-    margin-top: 20px;
+section {
+    min-height: 90vh;
+    padding-top: 3rem;
+}
+h1{
+    font-size: 90px;
+    color: #1545B3;
+    margin-bottom: 3%;
+}
+button{
+    width: 291px;
+    height: 70px;
+    background: #1545B3;
+    border-radius: 42px;
+    border: solid 2px #1545B3;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20%;
+}
+.pag-agradecimento{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
